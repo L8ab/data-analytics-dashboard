@@ -1,23 +1,48 @@
 # Data Analytics Dashboard
 
-لوحة تحليل بيانات
+A comprehensive analytics dashboard with real-time data visualization.
 
-## 📋 Description
+## Features
 
-Professional project developed by **L8ab**
+- Event tracking
+- Analytics metrics
+- Data visualization
+- React frontend
+- RESTful API
 
-## 🚀 Technologies
+## Tech Stack
 
-- Python\n- D3.js\n- PostgreSQL\n- Flask
+- **Frontend**: React
+- **Backend**: Node.js, Express
+- **Visualization**: Chart.js ready
 
-## 📧 Contact
+## Project Structure
 
-- **Email:** L8ab@proton.me
-- **Instagram:** [@L8ab](https://instagram.com/L8ab)
+\`\`\`
+data-analytics-dashboard/
+├── src/
+│   ├── services/        # Analytics service
+│   ├── components/      # React components
+│   └── index.js         # Backend server
+└── package.json
+\`\`\`
 
-## 👨‍💻 Developer
+## Installation
 
-**L8ab**
+\`\`\`bash
+npm install
+\`\`\`
+
+## Usage
+
+\`\`\`bash
+npm start
+\`\`\`
+
+## API Endpoints
+
+- \`GET /api/analytics\` - Get analytics summary
+- \`POST /api/analytics/track\` - Track event
 
 ---
 
